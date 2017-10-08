@@ -1,0 +1,335 @@
+body{
+	background: #eee;
+	font-size: 3.46vw;
+}
+.order-type{
+	background: #fff;
+	border-bottom: 1px solid #cecece;
+}
+.order-type ul li{
+	width:32.2vw;
+	height:11.73vw;
+	float: left;
+	text-align: center;
+	line-height: 11.73vw;
+	font-size: 3.73vw;
+	color:#999;
+}
+.order-type ul li.active{
+	color:#333;
+}
+.no-order,.ordered{
+	display: none;
+}
+.order-content ul li{
+	background:#fff;
+	margin-top:2.26vw; 
+
+}
+
+.all-order>ul>li .item-title{                          
+	 height:10.26vw;
+	 font-size: 3.73vw;
+	 line-height: 10.26vw;
+	 border-bottom: 1px solid #eee;
+}
+.all-order ul li .itemContent{
+	border-bottom:1px solid #eee;
+		font-size:3.46vw;
+}
+.all-order ul li .itemContent img{
+	width:3.46vw;
+	height:3.46vw;
+	margin-right:2vw;
+}
+.all-order ul li .itemContent p{
+	color:#666;
+	margin-top:2.6vw;
+}
+.all-order ul li .itemUse .state{
+	display: inline-block;
+	width:22.1vw;
+	height:8vw;
+	color:#fff;
+	/*background: #e6454a;*/
+	border-radius: 4vw;
+	text-align: center;
+	line-height: 8vw;
+	font-size: 3.46vw;
+	margin-top:1.13vw;
+}
+.comment{
+	background: #CECECE;
+}
+ #noOrder,#Ordered{
+ 	display:none;
+ } 
+/*个人页面样式*/
+
+#personInfo{
+	height:24.9vw;
+	background: #000000;
+	
+}
+#personInfo .user-pic>img{
+	height:16vw;
+	margin:3.6vw 3.6vw 0 8vw;
+}
+.personText{
+	font-size: 3.46vw;
+	padding-top:5.66vw;
+	height:18.64vw;
+}
+.service,.jifen,.kefu{
+	height:11.73vw;
+	background: #fff;
+	line-height: 11.73vw;
+	margin-top:2.66vw;
+	overflow:hidden;
+}
+
+.service>a>div>img,.jifen>a>div>img{
+	width:3.46vw;
+	height:4vw;
+	margin-right:2vw;
+}
+.service>a>.pull-right{
+	width:62vw;
+}
+.userInfor{
+	width:42vw;
+	height:11vw;
+	overflow:hidden;
+}
+/*返回建图标*/
+.service>a>.pull-right>img,.jifen>a>.pull-right>img,#container ul li>a>img{
+	width:1.6vw;
+	height:2.66vw;
+	margin:4.5vw 0 0 3vw;
+}
+.jifen>div>img,.kefu>div>img{
+	width:3.46vw;
+	height:3.73vw;
+	margin-right:2vw;
+}
+
+/*免费兑换页面的样式*/
+.change>a{
+	display: inline-block;
+	width:16vw;
+	height:5.86vw;
+	background: #e6454a;
+	border-radius: 4vw;
+	color:#fff;
+	line-height: 5.86vw;
+	text-align: center;
+}
+
+.inside ul li{
+	background: #fff;
+	width:100vw;
+}
+
+
+/*预约页面的样式*/
+
+#container>ul>li{
+	height:11.73vw;
+	border-bottom: 1px solid #eee;
+	line-height: 11.73vw;
+}
+#container ul li>a>p>img{
+	width:2.93vw;
+	height:3.73vw;
+	margin-right:2.8vw;
+}
+#container ul li>a{
+	display: block;
+	/*clear: both;*/
+}
+#container ul .choose>a>p>img{
+	width:3.46vw;
+	height:3.2vw;
+	margin-right: 2vw;
+}
+#container ul .serviceTime>a>p>img{
+	width:3.46vw;
+	height:3.46vw;
+	margin-right: 2vw;
+}
+#container ul .timeLong>p>img{
+	width:2.66vw;
+	height:3.73vw;
+	margin-right:2.8vw;
+}
+#container ul .timeLong .sub{
+	width:8vw;
+	height:8vw;
+	background: #fff;
+	border:1px solid #cecece;
+	margin:0 -1vw 1.865vw 0;
+	font-size:6.46vw;
+	font-weight: 500;
+	line-height: 8vw;
+	color:#999;
+	vertical-align:bottom;
+}
+.timeLong>div>a{
+	display: inline-block;
+	height:8vw;
+	padding:0 2.4vw;
+	border:1px solid #cecece;
+	margin:0 -1vw 1.865vw 0;
+	vertical-align: bottom;
+	
+} 
+#swiper_content li.active{
+	border:1px solid #e6454a;
+}
+/*提示部分*/
+.remark{
+	color:#bfbfbf;
+	padding:8.4vw 1.6vw;
+	line-height:4.8vw;
+}
+
+#fixInfor .goPay{
+	display: inline-block;
+	width:34.6vw;
+	height:13.2vw;
+	line-height:13.2vw;
+	background: #e6454a;
+	color:#fff;
+	text-align: center;
+	font-size: 3.46vw;
+}
+#fixInfor .payCount{
+	line-height:13.2vw;
+	padding-left:2.93vw;
+	font-size: 3.46vw;
+}
+/*选择地址*/
+#container ul .addrDetail>img{
+	width:3.46vw;
+	height:3.46vw;
+	margin-right:2vw;
+}
+#container>ul>form>li{
+	border-bottom: 1px solid #eee;
+}
+#container ul li>input,#zhuContent>form>input{
+	width:84vw;
+	height:11vw;
+	border:0;
+}
+#container ul .phone>img{
+	width:2.4vw;
+	height:3.73vw;
+	margin-right:3.06vw;
+}
+
+/*备注页面*/
+#zhuContent{
+	width:100vw;
+	height:13.2vw;
+	background: #fff;
+	line-height: 13.2vw;
+	font-size: 3.46vw;
+}
+
+/*约定时间页面*/
+.dating{
+	height:13.2vw;
+	background: #eee;
+	margin: 2.66vw 0;
+	position: absolute;
+	top:0;
+	left:0;
+	min-width:100vw;
+	overflow: hidden;
+	/*font-size: 3.46vw;*/
+}
+.dating>ul li{
+	float:left;
+	width:22.1vw;
+	height:13.2vw;
+	padding-top:2.92vw;
+	text-align: center;
+	/*background: #eee;*/
+}
+.dating>ul li>p{
+	margin-bottom: 0;
+}
+.dating>ul li>.week{
+	text-align: left;
+}
+.dating>ul li.active{
+	background: #e6454a;
+	color:#fff;
+}
+.dating>ul li>div{
+	width:15.3vw;
+	margin: 0 auto;
+}
+.timeDate{
+	padding-top:18.86vw;
+	font-size: 3.46vw;
+}
+.timeDate ul li{
+	width:23.4vw;
+	height:16vw;
+	border:1px solid #cecece;
+	float:left;
+	text-align: center;
+	border: 1px solid #cecece;
+	padding-top:5.4vw;
+}
+#moveDate {
+		position: absolute;
+		z-index: 1;
+		-webkit-tap-highlight-color: rgba(0,0,0,0);
+		width:158vw;
+		-webkit-transform: translateZ(0);
+		-moz-transform: translateZ(0);
+		-ms-transform: translateZ(0);
+		-o-transform: translateZ(0);
+		transform: translateZ(0);
+		-webkit-touch-callout: none;
+		-webkit-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+		-webkit-text-size-adjust: none; 
+		-moz-text-size-adjust: none;
+		-ms-text-size-adjust: none;
+		-o-text-size-adjust: none;
+		text-size-adjust: none;
+	}
+.timeDate ul li.active{
+	border:1px solid #e6454a;
+}
+.disabled{
+	background: #eee;
+	color:#999;
+}
+.timeDate ul li span{
+	display: block;
+	width:22vw;
+}
+.submit{
+	text-align: center;
+	background:#e6454a ;
+	color:#fff;
+	font-size: 3.46vw;
+}
+
+/*预约服务项目*/
+.modalContent{
+	width:100vw;
+	height:40.4vw;
+	background: #fff;
+	position: fixed;
+	bottom:13.2vw;
+	left:0;
+	
+}

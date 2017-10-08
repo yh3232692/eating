@@ -1,0 +1,69 @@
+
+body{
+	
+	padding-bottom:10vw;
+	font-family:PingFang SC  Regular;
+}
+/*统一设置内边距的*/
+.setPadding{
+	padding:0 3.2vw;
+}
+.clearMar{
+	margin-bottom: 0;
+}
+
+/*底部导航栏开始*/
+#footer{   
+	width:100vw;                 
+   height:13vw;
+   background:#fff;
+   position:fixed;
+   bottom:0;
+   left:0;
+   border-top:1px solid #cecece;
+}
+#footer ul li{
+	width:31.1vw;
+	float:left;
+	text-align: center;
+}
+#footer ul li img{
+	display: block;
+	margin:1vw auto 0;
+	height:7.2vw;
+}
+#footer ul .home img{
+	width:7.2vw;	
+}
+#footer ul .order img{
+	width:6.4vw;
+}
+#footer ul .person img{
+	width:5.86vw;
+}
+#footer ul li.active a{
+	color:#e6454a;
+}
+#footer ul li a{
+	color:#999;
+	font-size:2.66vw;
+	display:block;
+}
+body{
+	font-size:3.46vw;
+}
+.fixInfor{
+	width:100vw;
+	height:13.2vw;
+	position: fixed;
+	left:0;
+	bottom: 0;
+	border-top:1px solid #eee;
+	background: #fff;
+	line-height: 13.2vw;
+}
+.submitBut{
+	border:0;
+	border-top:1px solid #eee;
+	font-size: 3.46vw;
+}

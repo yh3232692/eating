@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+	<title>登录</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="css/default.css">
+	<link rel='stylesheet prefetch' href='http://fonts.useso.com/css?family=Open+Sans'>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<!--[if IE]>
+		<script src="http://libs.useso.com/js/html5shiv/3.7/html5shiv.min.js"></script>
+	<![endif]-->
+</head>
+<style>
+	.weekday {
+		/* padding:10px 0px;
+		margin-top:-16px; */
+		padding:15px 4px 5px 4px;
+		margin-top:-5px;
+	}
+	.app__bot {
+    position: relative;
+    height: 28rem;
+    background: #fff;
+}
+.app__top {
+    position: relative;
+    height: 25rem;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 6rem 1.5rem 2rem;
+    text-align: center;
+}
+.morning {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    line-height: 4rem;
+    text-align: center;
+    background: #50D2C2;
+    color: #fff;
+    font-size: 2rem;
+}
+.app__meeting{
+	height: 6.8rem;
+}
+</style>
+<body>
+	<div class="cont">
+	  <div class="demo">
+	    <div class="login">
+	      <div class="login__check"></div>
+	      <div class="login__form">
+	        <div class="login__row">
+	          <svg class="login__icon name svg-icon" viewBox="0 0 20 20">
+	            <path d="M0,20 a10,8 0 0,1 20,0z M10,0 a4,4 0 0,1 0,8 a4,4 0 0,1 0,-8" />
+	          </svg>
+	          <input type="text" class="login__input name" placeholder="请输入学号"/>
+	        </div>
+	        <div class="login__row">
+	          <svg class="login__icon pass svg-icon" viewBox="0 0 20 20">
+	            <path d="M0,20 20,20 20,8 0,8z M10,13 10,16z M4,8 a6,8 0 0,1 12,0" />
+	          </svg>
+	          <input type="password" class="login__input pass" placeholder="请输入密码"/>
+	        </div>
+	        <button type="button" class="login__submit">登 录</button>
+	        <p class="login__signup">还没有账号? &nbsp;<a href="http://www.htmleaf.com/jQuery/Layout-Interface/201506081995.html" target="_blank">立刻注册</a></p>
+	      </div>
+	    </div>
+	    <div class="app">
+	      <div class="app__top" style='padding-bottom:0px'>
+	        <div class="app__menu-btn">
+	          <span></span>
+	        </div>
+	        <svg class="app__icon search svg-icon" viewBox="0 0 20 20">
+	          <!-- yeap, its purely hardcoded numbers straight from the head :D (same for svg above) -->
+	          <!-- <path d="M20,20 15.36,15.36 a9,9 0 0,1 -12.72,-12.72 a 9,9 0 0,1 12.72,12.72" /> -->
+	        </svg>
+	        <p class="app__hello" style='margin-bottom: 1.5rem;'>欢迎您，姚恒</p>
+	        <div class="app__user">
+	          <img src="timg.jpg" alt="" class="app__user-photo" />
+	          <!-- <span class="app__user-notif">3</span> -->
+	        </div>
+	        <div class="app__month">
+	          <span class="app__month-btn left"></span>
+	          <p class="app__month-name" style='font-size:16px'>十月</p>
+	          <span class="app__month-btn right"></span>
+	        </div>
+	      </div>
+	      <div class="app__bot" style=''>
+	        <div class="app__days" style='padding:3px 15px'>
+	          <div class="app__day weekday">周日</div>
+	          <div class="app__day weekday" style='background:#FC3768;color:#fff'>今天</div>
+	          <div class="app__day weekday">周二</div>
+	          <div class="app__day weekday">周三</div>
+	          <div class="app__day weekday">周四</div>
+	          <div class="app__day weekday">周五</div>
+	          <div class="app__day weekday">周六</div>
+	          <div class="app__day date">8</div>
+	          <div class="app__day date" style='background:#FC3768;padding-bottom:12px;color:#fff'>9</div>
+	          <div class="app__day date">10</div>
+	          <div class="app__day date">11</div>
+	          <div class="app__day date">12</div>
+	          <div class="app__day date">13</div>
+	          <div class="app__day date">14</div>
+	        </div>
+	        <div class="app__meetings">
+	          <div class="app__meeting" style='height: 6.8rem;'>
+							<!-- <img src="http://i.imgur.com/joyWJEY.jpg" alt="" class="app__meeting-photo" /> -->
+							<div class='morning app__meeting-photo'>早餐</div>
+	            <p class="app__meeting-name">南湖餐厅--13号窗口</p>
+	            <p class="app__meeting-info">
+	              <!-- <span class="app__meeting-time">南瓜小米粥</span> -->
+								<!-- <span class="app__meeting-place">茶叶蛋</span> -->
+								<p><span>菜名：南瓜小米粥</span>&nbsp;&nbsp;<span>单价：2.5元</span>&nbsp;&nbsp;<span>数量：一份</span></p>
+								<p><span>菜名：香菇包菜包子</span>&nbsp;&nbsp;<span>单价：1元</span>&nbsp;&nbsp;<span>数量：一个</span></p>																
+								<p><span>菜名：茶叶蛋</span>&nbsp;&nbsp;<span>单价：1元</span>&nbsp;&nbsp;<span>数量：一个</span></p>								
+	            </p>
+	          </div>
+	          <div class="app__meeting">
+							<!-- <img src="http://i.imgur.com/joyWJEY.jpg" alt="" class="app__meeting-photo" /> -->
+							<div class='morning app__meeting-photo' style='background:#FFA54F'>午餐</div>
+	            <p class="app__meeting-name">南湖餐厅--1号窗口</p>
+	            <p class="app__meeting-info">
+	              <p><span>菜名：番茄炒鸡蛋</span>&nbsp;&nbsp;<span>单价：2.5元</span>&nbsp;&nbsp;<span>数量：一份</span></p>
+								<p><span>菜名：过油肉</span>&nbsp;&nbsp;<span>单价：4元</span>&nbsp;&nbsp;<span>数量：一份</span></p>																
+								<p><span>菜名：鱼香肉丝</span>&nbsp;&nbsp;<span>单价：3元</span>&nbsp;&nbsp;<span>数量：一份</span></p>
+	            </p>
+	          </div>
+	          <div class="app__meeting">
+							<!-- <img src="http://i.imgur.com/joyWJEY.jpg" alt="" class="app__meeting-photo" /> -->
+							<div class='morning app__meeting-photo' style='background:#9F79EE'>晚餐</div>
+	            <p class="app__meeting-name">南湖餐厅--3号窗口</p>
+	            <p class="app__meeting-info">
+	              <p><span>烙饼</span>&nbsp;&nbsp;<span>单价：6元/1斤</span>&nbsp;&nbsp;<span>数量：半斤</span></p>
+								<p><span>菜名：黑米粥</span>&nbsp;&nbsp;<span>单价：2元</span>&nbsp;&nbsp;<span>数量：一份</span></p>																
+	            </p>
+	          </div>
+	        </div>
+	      </div>
+	      <div class="app__logout">
+	        <svg class="app__logout-icon svg-icon" viewBox="0 0 20 20">
+	          <path d="M6,3 a8,8 0 1,0 8,0 M10,0 10,12"/>
+	        </svg>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	
+	<script src='js/stopExecutionOnTimeout.js?t=1'></script>
+	<script src='js/jquery-1.11.3.js'></script>
+	<script>
+	$(document).ready(function () {
+	    var animating = false, submitPhase1 = 1100, submitPhase2 = 400, logoutPhase1 = 800, $login = $('.login'), $app = $('.app');
+	    function ripple(elem, e) {
+	        $('.ripple').remove();
+	        var elTop = elem.offset().top, elLeft = elem.offset().left, x = e.pageX - elLeft, y = e.pageY - elTop;
+	        var $ripple = $('<div class=\'ripple\'></div>');
+	        $ripple.css({
+	            top: y,
+	            left: x
+	        });
+	        elem.append($ripple);
+	    }
+	    ;
+	    $(document).on('click', '.login__submit', function (e) {
+	        if (animating)
+	            return;
+	        animating = true;
+	        var that = this;
+	        ripple($(that), e);
+	        $(that).addClass('processing');
+	        setTimeout(function () {
+	            $(that).addClass('success');
+	            setTimeout(function () {
+	                $app.show();
+	                $app.css('top');
+	                $app.addClass('active');
+	            }, submitPhase2 - 70);
+	            setTimeout(function () {
+	                $login.hide();
+	                $login.addClass('inactive');
+	                animating = false;
+	                $(that).removeClass('success processing');
+	            }, submitPhase2);
+	        }, submitPhase1);
+	    });
+	    $(document).on('click', '.app__logout', function (e) {
+	        if (animating)
+	            return;
+	        $('.ripple').remove();
+	        animating = true;
+	        var that = this;
+	        $(that).addClass('clicked');
+	        setTimeout(function () {
+	            $app.removeClass('active');
+	            $login.show();
+	            $login.css('top');
+	            $login.removeClass('inactive');
+	        }, logoutPhase1 - 120);
+	        setTimeout(function () {
+	            $app.hide();
+	            animating = false;
+	            $(that).removeClass('clicked');
+	        }, logoutPhase1);
+	    });
+	});
+	</script>
+</body>
+</html>
